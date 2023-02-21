@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration Page</title>
+</head>
+<body>
+
+	<style>
+		
+		.myheader{
+			background: skyblue;
+			height: 30px;
+			width: 100%;
+			padding: 4px;
+		}
+
+		.mainbar{
+			margin: 3% 20%;
+			background: hotpink;
+			height: auto;
+			width: 60%;
+		}
+
+	</style>
+
+	<h2 class="myheader" align="center">Registration</h3>
+	<form class="mainbar">
+		<table border="0" align="center" cellpadding="5" cellspacing="10">
+			<tr>
+				<td align="right">First Name : </td>
+				<td><input type="text" name="fname"></td>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+				<td align="right">Last Name : </td>
+				<td><input type="text" name="lname"></td>
+			</tr>
+			<tr>
+				<td align="right">Country Code : </td>
+				<td>
+					<select>
+						<option value="select">- - - - - - Select - - - - - -</option>
+						<option value="india">India  +91 </option>
+						<option value="USA"> USA  +1 </option>
+						<option value="UK">UK  +44 </option>
+						<option value="Italy">Italy  +39</option>
+						<option value="Germany"> Germany  +49 </option>
+					</select>
+				</td>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+				<td align="right">Contact Number : </td>
+				<td><input type="number" name="number"></td>
+			</tr>
+			<tr>
+				<td align="right">Email : </td>
+				<td colspan="4"><input type="Email" name="Email" size=80></td>
+			</tr>
+
+			<tr>
+				<td align="right">Password : </td>
+				<td><input type="password" name="pwd"></td>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+				<td align="right">Confirm Password : </td>
+				<td><input type="password" name="cpwd"></td>
+			</tr>
+
+			<tr>
+				
+				<td colspan="5" align="center"><input type="submit" name="submit" size=50></td>
+				
+			</tr>
+
+
+		</table>
+	</form>
+
+
+</body>
+</html>

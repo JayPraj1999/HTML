@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form with property</title>
+</head>
+<body>
+
+	<fieldset>
+		<legend>Welcome to my page</legend>
+	
+
+	<form action="https://www.w3schools.com/" method="POST"> 
+
+		<table cellpadding="10px;" cellspacing="5px;">
+			
+			<tr>
+				<td align="right">First Name : </td>
+				<td><input type="text" name="fname" ></td>
+				<td align="right">Last Name : </td>
+				<td><input type="text" name="lname"></td>
+			</tr>
+
+			
+			<tr>
+				<td align="right">Email : </td>
+				<td><input type="Email" name="mail"></td>
+				<td align="right">Mobile : </td>
+				<td><input type="number" name="mobile" min="10" max="10"></td>
+			</tr>
+
+			<tr>
+				<td align="right">Date of Birth : </td>
+				<td><input type="date" name="dob"></td>
+				<td align="right">Sex : </td>
+				<td>
+					<input type="radio" id="male" value="Male" name="sex">
+					<label>Male</label>
+					<input type="radio" id="Female" value="Female" name="sex">
+					<label>Female</label>
+					<input type="radio" id="Female" value="Trans" name="sex">
+					<label>Trans</label>
+				</td>
+			</tr>
+
+			<tr>
+				<td align="right">Select Computer Language : </td>
+				<td>
+					<select>
+					<selected>
+						<option selected="selected" disabled="disabled">- - - - - Select - - - - -</option>
+					</selected>
+					<option>HTML</option>
+					<option>CSS</option>
+					<option>Java</option>
+					<option>Android</option>
+					<option>Python</option>
+					<option>Other</option>
+				</select>
+				</td>
+			</tr>
+				<td align="right">Select Language</td>
+				<td>
+					<input type="checkbox" name="Hindi" value="Hindi">
+					<label>Hindi</label>
+					<input type="checkbox" name="Gujarati" value="Gujarati">
+					<label>Gujarati</label>
+					<input type="checkbox" name="English" value="English">
+					<label>English</label>
+					<input type="checkbox" name="Other" value="Other">
+					<label>Other</label>
+				</td>
+
+			<tr>
+				<td align="right">Comments : </td>
+				<td>
+				<textarea rows="10" cols="50"></textarea>
+			</td>
+			</tr>
+
+			<tr>
+				<td align="right"><input type="submit" name="submit" value="Submit"></td>
+				<td></td>
+				<td><input type="reset" name="reset" value="Reset"></td>
+			</tr>
+
+		</table>
+
+	</form>
+
+	</fieldset>
+
+</body>
+</html>
