@@ -1,89 +1,89 @@
-.background {
+.background {            /*To set backgroud of form page*/
     width: 100%;
     height: 610px;
     background-color: rgb(216, 212, 212);
 }
-span a{
+span a{ /*To remove underline from link with red colur*/
     text-align: center;
     color: red;
     border-bottom: 5px solid red;
 }
-span a p{
+span a p{       /*To set text center with red colour*/
     text-align: center;
     color: red;
 }
 
-.background .tag {
+.background .tag {  /*To set margin and padding of form*/
     padding: 25px;
     margin-top: 5px;
 }
 
-.name input {
+.name input {       /*To set margin and padding of input type*/
     margin-left: 33px;
     margin-top: 5px;
 }
 
-.mail input {
+.mail input {       /*To set margin and padding of input type*/
     margin-left: 64px;
     margin-top: 5px;
 }
 
-.mobile input {
+.mobile input {     /*To set margin and padding of input type*/
     margin-left: 55px;
     margin-top: 5px;
 }
 
-.gender input {
+.gender input {     /*To set margin and padding of input type*/
     margin-top: 5px;
     margin-left: 55px;
 }
 
-.dob input {
+.dob input {        /*To set margin and padding of input type*/
     margin-top: 5px;
     margin-left: 15px;
     width: 360px;
 }
 
-.add textarea {
+.add textarea {     /*To set margin and padding of input type*/
     margin-top: 5px;
     margin-left: 50px;
 }
 
-.city input {
+.city input {       /*To set margin and padding of input type*/
     margin-top: 5px;
     margin-left: 74px;
 }
 
-.pin input {
+.pin input {        /*To set margin and padding of input type*/
     margin-top: 5px;
     margin-left: 42px;
 }
 
-.state input {
+.state input {      /*To set margin and padding of input type*/
     margin-top: 5px;
     margin-left: 70px;
 }
 
-.qualification select {
+.qualification select {     /*To set margin and padding of input type*/
     margin-top: 5px;
     margin-left: 18px;
 }
 
-.special .extra input {
+.special .extra input {     /*To set margin and padding of input type*/
     margin-top: 10px;
     margin-left: 12px;
 }
 
-.special .check input {
+.special .check input {     /*To set margin and padding of input type*/
     margin-left: 115px;
-}
+}   
 
-.password input {
+.password input {       /*To set margin and padding of input type*/
     margin-top: 5px;
     margin-left: 42px;
 }
 
-.submit input {
+.submit input {     /*To set margin, padding, colour, height and width of input type*/
     background-color: green;
     color: white;
     border: none;
