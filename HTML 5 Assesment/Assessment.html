@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title> <!-- Set Title for page -->
+    <link rel="icon" href="JP.png"> <!-- this is for ICON image-->
+    <link rel="stylesheet" href="Assessment.css"> <!-- Connecting with CSS file -->
+
+</head>
+
+<body>
+    <span>
+        <a href="#">    <!-- Provide link to set title -->
+            <p>Student Registraion Form</p>
+        </a>
+    </span>
+    <form>      <!-- Using form tag for create page -->
+        <div class="background">
+            <div class="tag"> 
+                <div class="name">  <!-- this div for name -->
+                    <label>First Name :</label>
+                    <input type="text" size="50" placeholder="Enter your first name" pattern="[A-Za-z]{3,6}" required>
+                </div>
+
+                <div class="name">      <!-- this div for Surname -->
+                    <label>Last Name :</label>
+                    <input type="text" size="50" placeholder="Enter your surname name" pattern="[A-Za-z]{3,6}" required>
+                </div>
+
+                <div class="mail">  <!-- this div for mail -->
+                    <label>Email :</label>
+                    <input type="email" size="50" placeholder="It Shoud Contail Only @...." required>
+                </div>
+
+                <div class="mobile">    <!-- this div for Mobile -->
+                    <label>Mobile :</label>
+                    <input type="mobile" pattern="[0-9]{10}" size="50" placeholder="Only 10 digits are allowed"
+                        required> <!-- Only accept digit -->
+                </div>
+
+                <div class="gender">        <!-- this div for Gender -->
+                    <label>Gender :</label>    
+                    <input type="radio" name="gender" value="Male" required>
+                    <label for="Male"> Male</label>
+                    <input type="radio" name="gender" value="Female" required>
+                    <label for="Female">Female</label>
+                </div>
+
+                <div class="dob">   <!-- this div for name -->
+                    <label>Date Of Birth :</label>
+                    <input type="date" max="2023-05-01" required>
+                </div>
+
+                <div class="add">   <!-- this div for Address -->
+                    <label>Address :</label>
+                    <textarea name="" id="" cols="47" rows="10" required></textarea>
+                </div>
+
+                <div class="city">  <!-- this div for City -->
+                    <label>City :</label>
+                    <input type="text" name="City" size="50" required>
+                </div>
+                <div class="pin">   <!-- this div for Pin -->
+                    <label>Area PIN :</label>
+                    <input type="text" name="pin" size="50" required>
+                </div>
+                <div class="state"> <!-- this div for State -->
+                    <label>State :</label>
+                    <input type="text" name="State" size="50" required>
+                </div>
+                <div class="qualification"> <!-- this div for Qualification Dropdown list -->
+                    <label>Qualification :</label>
+                    <select name="Qualification" required>
+                        <option value="Select Qualification" disabled selected>Select Qualification</option>
+                        <option value="SSC">SSC</option>
+                        <Option value="HSC">HSC</Option>
+                        <option value="ITI">ITI</option>
+                        <option value="Diploma">Diploma</option>
+                        <Option value="Degree">Degree</Option>
+                        <option value="Masters">Master Degree</option>
+                        <option value="Phd">Ph.D</option>
+                    </select>
+                </div>
+
+                <div class="special">
+
+                    <div class="extra"> <!-- this div for Specialization checkbox -->
+                        <label>Specialization :</label>
+                        <input type="checkbox" name="Computer Science">
+                        <label>Computer Science</label><br>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox" name="IT">
+                        <label>Information Technology</label><br>
+                        <input type="checkbox" name="Architect">
+                        <label>Computer Architecture</label><br>
+
+                        <input type="checkbox" name="Communication">
+                        <label>Tele Communication</label><br>
+                    </div>
+                </div>
+                <div class="password">  <!-- this div for Password -->
+                   <label>Password :</label>
+                    <input type="password" name="Password" size="50" required>
+                </div>
+                <div class="submit">
+                    <input type="submit" name="Registered" value="Registered">
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
